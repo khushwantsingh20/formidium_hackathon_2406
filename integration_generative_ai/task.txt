@@ -1,0 +1,33 @@
+#HC1004
+Title: Integration of Generative AI for Prompt-Based Report Delivery in an Accounting Platform
+Background:
+The accounting platform provides comprehensive accounting services along with generating a variety of reports and analytics. This platform aims to enhance its functionality by integrating Generative AI (Gen-AI) to offer prompt-based report delivery that can handle any sort of customized query from users.
+
+Challenge:
+Your task is to integrate Generative AI into the accounting platform to enable prompt-based report delivery. This system should allow users to generate customized reports based on their queries. It is crucial to ensure that one customer cannot access the data reports of another customer, meaning prompts must be filtered to provide data only from the authorized subset.
+
+The system successfully integrates Generative AI to handle prompt-based report generation.
+
+Users can generate customized reports using natural language queries.
+
+The system ensures that data access is restricted so that customers only receive reports based on their own data.
+
+The prompts and generated reports are filtered and authenticated to ensure data privacy and security.
+
+The system includes tests that demonstrate that all the above criteria are met. These tests should be executable using a test command and cover all major functionalities of the system.
+
+The system should handle edge cases gracefully and provide meaningful error messages.
+
+Constraints:
+The system should be implemented using secure authentication and authorization mechanisms to ensure data privacy.
+The system should use a reliable Gen-AI model that can understand and process natural language queries.
+The system should include a user interface for users to input their queries and receive reports.
+The system should include README with instructions for deploying and using the system.
+The system should contain a test file, testing every scenario.
+
+Deliverables:
+Source code in a public GitHub repository.
+Link to the deployed system.
+Link to the user interface for interacting with the system.
+README with instructions for deploying and using the system.
+A comprehensive suite of tests, executable with a test command, that covers all major functionalities of the system.
